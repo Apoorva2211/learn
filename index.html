@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/common.css">  
+</head>
+<body>
+    <div class="spinner-wrapper">
+        <div class="loader"></div>
+    </div>
+    
+    <header>
+        <img src="assests/images/logo.png" alt="" width="60px" height="60px" >
+        <a href="login.html" target="_self">LOGIN</a><br>
+    </header>
+    
+    <div class="content">
+        <div class="search-box">
+            <div class="search-bar">
+                <input type="text" name="city" placeholder="City"/>
+            </div>
+        </div>
+
+        <div class="city-images">
+            <div class="images">
+                <a href="./list.html" target="_self">
+                    <div class="overlay"></div>
+                    <p class="image-title">Delhi</p>
+                    <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg" 
+                        alt="new-delhi"/>
+                </a>
+            </div>
+            <div class="images">
+                <div class="overlay"></div>
+                <p class="image-title">Goa</p>
+                <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg" 
+                alt="Goa">
+            </div>
+
+            <div class="images">
+                <div class="overlay"></div>
+                <p class="image-title">Hyderabad</p>
+                <img src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg" 
+                alt="Hyderbad">
+            </div>
+
+            <div class="images">
+                <div class="overlay"></div>
+                <p class="image-title">Kolkata</p>
+                <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg" 
+                alt="kolkata-calcutta">
+            </div>  
+        </div> 
+
+        <div class="city-images flex-wrap pt-5 pb-4" id="mydiv">
+            <div class="images">
+                <div class="overlay"></div>
+                <p class="image-title">Chennai</p>
+                <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/4d/46/b8/chennai-madras.jpg" 
+                alt="Chennai">
+            </div>
+
+            <div class="images">
+                <div class="overlay"></div>
+                <p class="image-title">Agra</p>
+                <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/fc/agra.jpg" 
+                alt="Agra">
+            </div>
+
+            <div class="images">
+                <div class="overlay"></div>
+                <p class="image-title">Jaipur</p>
+                <img src="https://media-cdn.tripadvisor.com/media/photo-s/10/a3/3b/8a/screenshot-2017-09-12.jpg" 
+                alt="Jaipur">
+            </div>
+
+            <div class="images">
+                <div class="overlay"></div>
+                <p class="image-title">Bengaluru</p>
+                <img src="https://media-cdn.tripadvisor.com/media/photo-s/0c/d2/2f/7a/palace-from-the-outside.jpg" 
+                alt="Bengaluru">
+            </div>
+        </div> 
+    </div>
+
+   
+    <!--<div class="city-images flex-wrap">
+    <a href="list.html" target="_self">
+        <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg" ></a>
+        <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg" >
+        <img src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg" >
+        <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg" >
+    </div>-->
+ 
+            <!--<a href="" target="">View more>></a><br>-->
+
+            <div class="view-more">
+                <a class="btn btn-secondary text-white" onclick="view()" id="viewMore">View More>></a>
+            </div>
+      
+
+            <footer>
+                <a href="contact.html" target="blank">Contact us</a><br>
+                <div class="bottomright">
+                <a href="https://www.facebook.com">
+                <img src="assests/images/facebook.png" width="20px" height="22px" le></a>
+                <a href="https://www.instagram.com">
+                <img src="assests/images/instagram.png" width="20px" height="22px"></a>
+                <a href="https://twitter.com">
+                <img src="assests/images/twitter.png" width="20px" height="22px"></a><br>
+                </div>
+        
+               
+            <p style="text-align:center;">© 2020 ROOM SEARCH PVT LTD</p>
+                 
+               
+        
+            </footer>
+          
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>
